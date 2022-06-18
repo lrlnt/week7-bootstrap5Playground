@@ -1,0 +1,58 @@
+.carousel-item img {
+    height: 75vh;
+    object-fit: cover;
+    object-position: center bottom;
+}
+
+.carousel-control-prev {
+    left: 10%;
+}
+
+.carousel-control-next {
+    right: 10%;
+}
+
+.rounded-circle {
+    object-fit: cover;
+}
+
+.row {
+    margin: 0;
+}
+
+/* v6ib kasutada bootstrap klassi text-center
+.marketing {
+    text-align: center;
+}
+*/
+
+.features h2 {
+    margin-bottom: 5rem;
+}
+
+.features img {
+    height: 550px;
+}
+
+.float-right {
+    float: right;
+}
+
+footer p.copyright {
+    padding: 2rem 0;
+    display: inline-block;
+    animation: spin 2s;
+}
+
+footer > p.copyright:hover {
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    0% {
+      transform: rotateX(-20deg) rotateY(20deg);
+    }
+    100% {
+      transform: rotateX(-20deg) rotateY(740deg);
+    }
+}
